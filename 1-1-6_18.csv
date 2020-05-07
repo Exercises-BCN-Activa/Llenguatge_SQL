@@ -1,0 +1,4 @@
+codigo,max(precio),min(precio),avg(precio),count(*)
+6,755,120,437.5,2
+1,245.99,202,223.995,2
+2,559,444,501.5,2

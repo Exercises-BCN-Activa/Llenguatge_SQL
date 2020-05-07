@@ -1,0 +1,4 @@
+nombre,max(precio),min(precio),avg(precio),count(*)
+Crucial,755,120,437.5,2
+Asus,245.99,202,223.995,2
+Lenovo,559,444,501.5,2
