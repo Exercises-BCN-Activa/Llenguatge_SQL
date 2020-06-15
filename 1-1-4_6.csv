@@ -1,3 +1,11 @@
+// SENTENCIAS
+
+SELECT p.nombre as "Producto", p.precio as "Precio", f.nombre as "Fabricante"
+FROM producto as p JOIN fabricante as f ON p.codigo_fabricante = f.codigo
+WHERE f.nombre = "Lenovo";
+
+// RESULTADO
+
 Producto,Fabricante
 "Portátil Yoga 520",Lenovo
 "Portátil Ideapd 320",Lenovo

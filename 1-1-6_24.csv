@@ -1,4 +1,12 @@
-nombre,avg(precio)
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante",avg(precio)
+FROM producto as p LEFT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+group by f.nombre having avg(precio) >= 150;
+
+// RESULTADO
+
+Fabricante,avg(precio)
 Crucial,437.5
 Samsung,150.99
 Gigabyte,185

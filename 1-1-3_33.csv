@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT * FROM fabricante where nombre like '____';
+
+// RESULTADO
+
 codigo,nombre
 1,Asus

@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT * FROM fabricante LIMIT 5
+
+// RESULTADO
+
 codigo,nombre
 1,Asus
 2,Lenovo

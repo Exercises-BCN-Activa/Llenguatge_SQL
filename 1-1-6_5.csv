@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select min(precio) from producto;
+
+// RESULTADO
+
 min(precio)
 59.99

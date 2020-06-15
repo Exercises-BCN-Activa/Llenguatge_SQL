@@ -1,2 +1,10 @@
+// SENTENCIAS
+
+SELECT p.nombre as "Producto", p.precio as "Precio", f.nombre as "Fabricante"
+FROM producto as p JOIN fabricante as f ON p.codigo_fabricante = f.codigo
+ORDER BY p.precio asc LIMIT 1;
+
+// RESULTADO
+
 Producto,Precio,Fabricante
 "Impresora HP Deskjet 3720",59.99,Hewlett-Packard

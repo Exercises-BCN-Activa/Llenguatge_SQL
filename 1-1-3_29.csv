@@ -1,4 +1,10 @@
-nombre,centimos
+// SENTENCIAS
+
+SELECT nombre, (precio*100) as "céntimos" FROM producto;
+
+// RESULTADO
+
+nombre,céntimos
 "Disco duro SATA3 1TB",8699
 "Memoria RAM DDR4 8GB",12000
 "Disco SSD 1 TB",15099

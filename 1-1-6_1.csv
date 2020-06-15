@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select count(*) from producto;
+
+// RESULTADO
+
 count(*)
 11

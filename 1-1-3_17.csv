@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT * FROM fabricante LIMIT 2 OFFSET 3
+
+// RESULTADO
+
 codigo,nombre
 4,Samsung
 5,Seagate

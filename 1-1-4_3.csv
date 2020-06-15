@@ -1,3 +1,10 @@
+// SENTENCIAS
+
+SELECT p.codigo as "Cod. Producto", p.nombre as "Producto", f.codigo as "Cod. Fabricante", f.nombre as "Fabricante" 
+FROM producto as p JOIN fabricante as f on p.codigo_fabricante = f.codigo;
+
+// RESULTADO
+
 "Cód Producto",Producto,"Cód Fabricante",Fabricante
 1,"Disco duro SATA3 1TB",5,Seagate
 2,"Memoria RAM DDR4 8GB",6,Crucial

@@ -1,4 +1,12 @@
-codigo,max(precio),min(precio),avg(precio),count(*)
+// SENTENCIAS
+
+SELECT f.codigo as "Cod. Fabricante",max(precio),min(precio),avg(precio),count(precio)
+FROM producto as p LEFT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+group by f.codigo having avg(precio) > 200;
+
+// RESULTADO
+
+"Cod. Fabricante",max(precio),min(precio),avg(precio),count(precio)
 6,755,120,437.5,2
 1,245.99,202,223.995,2
 2,559,444,501.5,2

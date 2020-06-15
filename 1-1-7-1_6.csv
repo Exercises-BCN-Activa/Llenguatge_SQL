@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT nombre from producto where codigo_fabricante = 1 and precio > (select avg(precio) from producto where codigo_fabricante = 1)
+
+// RESULTADO
+
 nombre,precio
 "Monitor 27 LED Full HD",245.99

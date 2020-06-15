@@ -1,3 +1,11 @@
+// SENTENCIAS
+
+SELECT f.codigo as "codigo", f.nombre as "Fabricante", p.nombre as "Producto"
+FROM producto as p RIGHT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+WHERE p.nombre is NULL;
+
+// RESULTADO
+
 codigo,Fabricante,Producto
 8,Huawei,NULL
 9,Xiaomi,NULL

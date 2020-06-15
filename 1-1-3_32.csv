@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT * FROM fabricante where nombre like '%w%';
+
+// RESULTADO
+
 codigo,nombre
 3,Hewlett-Packard
 8,Huawei

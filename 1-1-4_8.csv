@@ -1,3 +1,11 @@
+// SENTENCIAS
+
+SELECT p.nombre as "Producto", p.precio as "Precio", f.nombre as "Fabricante"
+FROM producto as p JOIN fabricante as f ON p.codigo_fabricante = f.codigo
+WHERE f.nombre = "Asus" or f.nombre = "Hewlett-Packard" or f.nombre = "Seagate";
+
+// RESULTADO
+
 Producto,Fabricante
 "Monitor 24 LED Full HD",Asus
 "Monitor 27 LED Full HD",Asus

@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre, precio FROM producto WHERE precio >= 180 ORDER BY precio desc, nombre asc;
+
+// RESULTADO
+
 nombre,precio
 "GeForce GTX 1080 Xtreme",755
 "Portátil Yoga 520",559

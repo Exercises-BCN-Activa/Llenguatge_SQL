@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT sum(precio) FROM producto;
+
+// RESULTADO
+
 sum(precio)
 2988.96

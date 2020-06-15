@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+select * from producto where codigo_fabricante = 2;
+
+// RESULTADO
+
 codigo,nombre,precio,codigo_fabricante
 8,"Portátil Yoga 520",559,2
 9,"Portátil Ideapd 320",444,2

@@ -1,8 +1,16 @@
-nombre,max(precio),min(precio),avg(precio)
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante",max(precio),min(precio),avg(precio)
+FROM producto as p LEFT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+group by f.nombre;
+
+// RESULTADO
+
+Fabricante,max(precio),min(precio),avg(precio)
+Seagate,86.99,86.99,86.99
+Crucial,755,120,437.5
+Samsung,150.99,150.99,150.99
+Gigabyte,185,185,185
 Asus,245.99,202,223.995
 Lenovo,559,444,501.5
 Hewlett-Packard,180,59.99,119.995
-Samsung,150.99,150.99,150.99
-Seagate,86.99,86.99,86.99
-Crucial,755,120,437.5
-Gigabyte,185,185,185

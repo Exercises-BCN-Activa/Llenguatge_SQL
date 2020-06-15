@@ -1,4 +1,12 @@
-nombre,count(*)
-Crucial,2
-Asus,2
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", count(precio)
+FROM producto as p LEFT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+WHERE p.precio >= 220 group by f.nombre order by count(precio) desc;
+
+// RESULTADO
+
+Fabricante,count(precio)
 Lenovo,2
+Crucial,1
+Asus,1

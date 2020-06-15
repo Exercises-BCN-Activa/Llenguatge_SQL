@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre FROM fabricante order by nombre asc;
+
+// RESULTADO
+
 nombre
 Asus
 Crucial

@@ -1,3 +1,11 @@
+// SENTENCIAS
+
+SELECT p.nombre as "Producto", p.precio as "Precio"
+FROM producto as p JOIN fabricante as f ON p.codigo_fabricante = f.codigo
+WHERE f.nombre LIKE '%e';
+
+// RESULTADO
+
 Producto,Precio
 "Impresora HP Deskjet 3720",59.99
 "Impresora HP Laserjet Pro M26nw",180

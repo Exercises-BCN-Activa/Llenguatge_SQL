@@ -1,2 +1,8 @@
-MIN(p.precio)
+// SENTENCIAS
+
+SELECT min(precio) FROM producto WHERE codigo_fabricante = 1;
+
+// RESULTADO
+
+min(precio)
 202

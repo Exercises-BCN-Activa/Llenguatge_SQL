@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT LOWER(nombre),precio FROM producto;
+
+// RESULTADO
+
 LOWER(nombre),precio
 "disco duro sata3 1tb",86.99
 "memoria ram ddr4 8gb",120

@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre FROM producto WHERE precio >= 400;
+
+// RESULTADO
+
 nombre
 "GeForce GTX 1080 Xtreme"
 "Portátil Yoga 520"

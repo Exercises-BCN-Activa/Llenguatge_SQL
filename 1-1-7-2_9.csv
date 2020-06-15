@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select nombre,precio from producto where precio <= all (select precio from producto);
+
+// RESULTADO
+
 nombre,precio
 "Impresora HP Deskjet 3720",59.99

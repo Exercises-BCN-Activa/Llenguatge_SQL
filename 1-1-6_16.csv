@@ -1,4 +1,12 @@
-nombre,count(*)
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", count(p.nombre) as "N. Productos"
+FROM producto as p RIGHT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+group by f.codigo order by count(p.nombre) desc;
+
+// RESULTADO
+
+Fabricante,"N. Productos"
 Asus,2
 Lenovo,2
 Hewlett-Packard,2
@@ -6,3 +14,5 @@ Crucial,2
 Samsung,1
 Seagate,1
 Gigabyte,1
+Huawei,0
+Xiaomi,0

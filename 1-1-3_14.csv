@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre FROM fabricante order by nombre desc;
+
+// RESULTADO
+
 nombre
 Xiaomi
 Seagate

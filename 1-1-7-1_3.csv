@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select nombre from producto where codigo_fabricante = 2 order by precio desc limit 1;
+
+// RESULTADO
+
 nombre
 "Portátil Yoga 520"

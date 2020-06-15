@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT * FROM fabricante where nombre like '%e';
+
+// RESULTADO
+
 codigo,nombre
 5,Seagate
 7,Gigabyte

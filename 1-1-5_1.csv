@@ -1,3 +1,10 @@
+// SENTENCIAS
+
+SELECT f.codigo as "codigo", f.nombre as "Fabricante", p.nombre as "Producto"
+FROM producto as p RIGHT JOIN fabricante as f on p.codigo_fabricante = f.codigo;
+
+// RESULTADO
+
 codigo,Fabricante,Producto
 1,Asus,"Monitor 24 LED Full HD"
 1,Asus,"Monitor 27 LED Full HD"

@@ -1,4 +1,10 @@
-nombre,"euro (EUR)","dollar (USD)"
+// SENTENCIAS
+
+SELECT nombre, precio, precio*1.12554 FROM producto;
+
+// RESULTADO
+
+nombre,precio,precio*1.12554
 "Disco duro SATA3 1TB",86.99,94.02
 "Memoria RAM DDR4 8GB",120,129.70
 "Disco SSD 1 TB",150.99,163.19

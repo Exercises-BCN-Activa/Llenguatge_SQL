@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT count(*) FROM producto WHERE codigo_fabricante = 1;
+
+// RESULTADO
+
 count(*)
 2

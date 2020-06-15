@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT nombre, precio FROM producto ORDER BY precio asc LIMIT 1;
+
+// RESULTADO
+
 nombre,precio
 "Impresora HP Deskjet 3720",59.99

@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre,UPPER(LEFT(nombre, 2)) FROM producto;
+
+// RESULTADO
+
 nombre,"UPPER(LEFT(nombre, 2))"
 Asus,AS
 Lenovo,LE

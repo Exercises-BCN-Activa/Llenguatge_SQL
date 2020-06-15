@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+select nombre,codigo from fabricante where not exists (select codigo_fabricante from producto where producto.codigo_fabricante = fabricante.codigo);
+
+// RESULTADO
+
 nombre,codigo
 Huawei,8
 Xiaomi,9

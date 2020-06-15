@@ -1,0 +1,1 @@
+no en este caso, porque todos los productos registrados en la tabla de productos tienen un fabricante correspondiente en la tabla de fabricantes, pero podría haber un producto con código de fabricante que no existía en la tabla de fabricantes.

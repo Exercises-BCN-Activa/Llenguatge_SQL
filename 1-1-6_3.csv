@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select count(distinct codigo_fabricante) from producto;
+
+// RESULTADO
+
 "count(distinct codigo_fabricante)"
 7

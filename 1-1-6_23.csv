@@ -1,4 +1,12 @@
-nombre,avg(precio)
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante",avg(precio)
+FROM producto as p LEFT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+group by f.nombre;
+
+// RESULTADO
+
+Fabricante,avg(precio)
 Seagate,86.99
 Crucial,437.5
 Samsung,150.99

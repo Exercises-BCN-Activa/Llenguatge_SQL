@@ -1,6 +1,13 @@
-nombre,count(*)
-Gigabyte,1
-Crucial,1
-Asus,2
-Lenovo,2
-Hewlett-Packard,1
+// SENTENCIAS
+
+SELECT distinct codigo_fabricante, count(precio) 
+FROM producto WHERE precio >= 180 GROUP BY codigo_fabricante;
+
+// RESULTADO
+
+codigo_fabricante,count(precio)
+1,2
+2,2
+3,1
+6,1
+7,1

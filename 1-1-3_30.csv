@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT * FROM fabricante where nombre like 'S%';
+
+// RESULTADO
+
 codigo,nombre
 4,Samsung
 5,Seagate

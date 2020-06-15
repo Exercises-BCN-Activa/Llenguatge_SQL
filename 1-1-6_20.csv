@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT count(precio) FROM producto WHERE precio >= 180;
+
+// RESULTADO
+
 count(*)
 7

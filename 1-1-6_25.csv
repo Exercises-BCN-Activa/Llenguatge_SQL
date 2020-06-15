@@ -1,5 +1,13 @@
-nombre,count(*)
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", count(precio)
+FROM producto as p LEFT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+group by f.nombre having count(precio) >= 2;
+
+// RESULTADO
+
+Fabricante,count(precio)
+Crucial,2
 Asus,2
 Lenovo,2
 Hewlett-Packard,2
-Crucial,2

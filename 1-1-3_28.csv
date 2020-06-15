@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre, codigo_fabricante FROM producto WHERE codigo_fabricante in (1,3,5);
+
+// RESULTADO
+
 nombre,codigo_fabricante
 "Monitor 24 LED Full HD",1
 "Monitor 27 LED Full HD",1

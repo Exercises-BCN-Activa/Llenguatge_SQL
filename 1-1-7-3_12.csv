@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+select nombre,codigo from fabricante where codigo in (select codigo_fabricante from producto);
+
+// RESULTADO
+
 nombre,codigo
 Asus,1
 Lenovo,2

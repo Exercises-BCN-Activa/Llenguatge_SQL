@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT nombre, precio FROM producto ORDER BY precio desc LIMIT 1;
+
+// RESULTADO
+
 nombre,precio
 "GeForce GTX 1080 Xtreme",755

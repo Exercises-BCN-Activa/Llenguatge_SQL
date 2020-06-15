@@ -1,3 +1,11 @@
+// SENTENCIAS
+
+SELECT p.nombre as "Producto", p.precio as "Precio"
+FROM producto as p JOIN fabricante as f ON p.codigo_fabricante = f.codigo
+WHERE f.nombre LIKE '%e';
+
+// RESULTADO
+
 Producto,Precio
 "Disco duro SATA3 1TB",86.99
 "GeForce GTX 1050Ti",185

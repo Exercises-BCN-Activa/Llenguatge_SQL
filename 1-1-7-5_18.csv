@@ -1,0 +1,13 @@
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", p.nombre as "Producto", p.precio as "Precio"
+from producto as p inner join fabricante as f on p.codigo_fabricante = f.codigo
+where p.precio >= any (SELECT max(p.precio)
+from producto as p inner join fabricante as f on p.codigo_fabricante = f.codigo 
+where f.nombre = 'Lenovo');
+
+// RESULTADO
+
+Fabricante,Producto,Precio
+Crucial,"GeForce GTX 1080 Xtreme",755
+Lenovo,"Portátil Yoga 520",559

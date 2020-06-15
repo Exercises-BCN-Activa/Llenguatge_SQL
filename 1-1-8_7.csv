@@ -1,0 +1,14 @@
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", count(p.nombre) as "Total"
+from producto as p right join fabricante as f on p.codigo_fabricante = f.codigo
+group by f.nombre having Total = all (SELECT count(p.nombre)
+from producto as p right join fabricante as f on p.codigo_fabricante = f.codigo where f.nombre = "Lenovo");
+
+// RESULTADO
+
+Fabricante,Total
+Asus,2
+Lenovo,2
+Hewlett-Packard,2
+Crucial,2

@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select avg(precio) from producto;
+
+// RESULTADO
+
 avg(precio)
 271.7236363636364

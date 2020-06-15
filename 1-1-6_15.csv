@@ -1,2 +1,9 @@
+// SENTENCIAS
+
+SELECT max(precio),min(precio),avg(precio),count(precio) 
+FROM producto WHERE codigo_fabricante = 6;
+
+// RESULTADO
+
 max(precio),min(precio),avg(precio),count(precio)
 755,120,437.5,2

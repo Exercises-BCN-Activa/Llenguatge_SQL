@@ -1,0 +1,20 @@
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", p.nombre as "Producto", p.precio as "Precio"
+from producto as p inner join fabricante as f on p.codigo_fabricante = f.codigo
+where p.precio >= any (SELECT avg(p.precio)
+from producto as p inner join fabricante as f on p.codigo_fabricante = f.codigo group by f.nombre);
+
+// RESULTADO
+
+Fabricante,Producto,Precio
+Seagate,"Disco duro SATA3 1TB",86.99
+Crucial,"Memoria RAM DDR4 8GB",120
+Samsung,"Disco SSD 1 TB",150.99
+Gigabyte,"GeForce GTX 1050Ti",185
+Crucial,"GeForce GTX 1080 Xtreme",755
+Asus,"Monitor 24 LED Full HD",202
+Asus,"Monitor 27 LED Full HD",245.99
+Lenovo,"Portátil Yoga 520",559
+Lenovo,"Portátil Ideapd 320",444
+Hewlett-Packard,"Impresora HP Laserjet Pro M26nw",180

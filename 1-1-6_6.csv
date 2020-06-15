@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select max(precio) from producto;
+
+// RESULTADO
+
 max(precio)
 755

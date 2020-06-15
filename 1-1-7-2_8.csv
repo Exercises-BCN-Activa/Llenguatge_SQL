@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select nombre,precio from producto where precio >= all (select precio from producto);
+
+// RESULTADO
+
 nombre,precio
 "GeForce GTX 1080 Xtreme",755

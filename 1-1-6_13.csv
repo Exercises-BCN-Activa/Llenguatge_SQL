@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+SELECT MAX(precio) FROM producto WHERE codigo_fabricante = 1;
+
+// RESULTADO
+
 MAX(p.precio)
 245.99

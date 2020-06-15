@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT distinct codigo_fabricante FROM producto;
+
+// RESULTADO
+
 codigo
 1
 2

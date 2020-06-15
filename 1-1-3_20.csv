@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre FROM producto WHERE codigo_fabricante = 2;
+
+// RESULTADO
+
 nombre
 "Portátil Yoga 520"
 "Portátil Ideapd 320"

@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select count(*) from fabricante;
+
+// RESULTADO
+
 count(*)
 9

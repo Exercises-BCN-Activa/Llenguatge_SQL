@@ -1,3 +1,10 @@
+// SENTENCIAS
+
+SELECT p.nombre as "Producto", precio as "Precio", f.nombre as "Fabricante"
+from producto as p JOIN fabricante as f on p.codigo_fabricante = f.codigo
+
+// RESULTADO
+
 Producto,Precio,Fabricante
 "Disco duro SATA3 1TB",86.99,Seagate
 "Memoria RAM DDR4 8GB",120,Crucial

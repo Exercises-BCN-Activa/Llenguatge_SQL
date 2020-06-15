@@ -1,3 +1,9 @@
+// SENTENCIAS
+
+SELECT nombre as "nombre de producto", precio as "euros", precio*1.12554 as "dólares" FROM producto;
+
+// RESULTADO
+
 "nombre de producto",euros,dólares
 "Disco duro SATA3 1TB",86.99,94.02
 "Memoria RAM DDR4 8GB",120,129.70

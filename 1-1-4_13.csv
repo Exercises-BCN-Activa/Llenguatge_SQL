@@ -1,12 +1,15 @@
+// SENTENCIAS
+
+SELECT distinct f.codigo as "codigo", f.nombre as "Fabricante"
+FROM producto as p JOIN fabricante as f on p.codigo_fabricante = f.codigo;
+
+// RESULTADO
+
 codigo,Fabricante
 1,Asus
-1,Asus
 2,Lenovo
-2,Lenovo
-3,Hewlett-Packard
 3,Hewlett-Packard
 4,Samsung
 5,Seagate
-6,Crucial
 6,Crucial
 7,Gigabyte

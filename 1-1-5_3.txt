@@ -1,1 +1,0 @@
-no, porque en este caso todos los productos registrados en la tabla de productos tienen un fabricante correspondiente en la tabla de fabricantes.

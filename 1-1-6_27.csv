@@ -1,0 +1,21 @@
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", count(p.nombre) as "Total"
+FROM producto as p RIGHT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+WHERE p.precio >= 220 or p.nombre is null
+group by f.nombre order by count(p.nombre) desc;
+
+// RESULTADO
+
+?????????????????
+
+No pude hacer aparecer a todos los fabricantes
+
+?????????????????
+
+Fabricante,Total
+Lenovo,2
+Asus,1
+Crucial,1
+Huawei,0
+Xiaomi,0

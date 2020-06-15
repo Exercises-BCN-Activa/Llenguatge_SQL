@@ -1,2 +1,10 @@
-nombre,sum(precio)
+// SENTENCIAS
+
+SELECT f.nombre as "Fabricante", sum(p.precio) as "Total Suma"
+FROM producto as p RIGHT JOIN fabricante as f on p.codigo_fabricante = f.codigo
+group by f.nombre HAVING sum(p.precio) > 1000;
+
+// RESULTADO
+
+Fabricante,"Total Suma"
 Lenovo,1003

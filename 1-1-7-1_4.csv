@@ -1,2 +1,8 @@
+// SENTENCIAS
+
+select nombre from producto where codigo_fabricante = 3 order by precio asc limit 1;
+
+// RESULTADO
+
 nombre
 "Impresora HP Deskjet 3720"
